@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    {{{body}}}
+    <form action="/tinh123" method="get">
+        <input type="text" name="soA" placeholder="Nhập Số A" id="soA" value={{soA}} >
+        <input type="text" name="soB" placeholder="Nhập Số B" id="soB" value={{soB}} >
+        <label>Máy Tính</label>
+        <select name="operator">
+            <option value="cong">+</option>
+            <option value="tru">-</option>
+            <option value="nhan">*</option>
+            <option value="chia">/</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    <h1>Kết Qủa Là</h1>
+    <input name="kq" id="kq" value={{result}}>
+</body>
+
+</html>
